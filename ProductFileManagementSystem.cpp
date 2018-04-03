@@ -150,7 +150,7 @@ class edit_Product :public product_Information{
 	char changeConfirmation;
 	bool flag = true;
 public:
-	void function3(){	//无法实现用户指定修改，只能让用户全部重新输入
+	void function3(){	
 		system("CLS");//CLS=clear string
 		cout << "\t\t\t\tEDIT FUNCTION" << endl;
 		cout << "\t\t\t-----------------------------" << endl;
